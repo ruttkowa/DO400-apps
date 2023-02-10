@@ -14,7 +14,7 @@ pipeline {
 			steps {
 				sh '''
 					oc start-build greeting-metrics \
-					--follow --wait -n hrjmgc-metrics
+					--follow --wait -n hrjmgc-devsecops
 				'''
 			}
 		}
